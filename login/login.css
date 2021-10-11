@@ -1,0 +1,154 @@
+.bodyBlock{
+    
+    background-color: grey;
+}
+/* 写得太麻烦了，本身是不用那么多道道的 */
+/* 比以前更加了解水平居中的本质原理了 */
+.containerLogin{ 
+    width:600px;
+    height:300px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    background: url("./img/gold.jpg");
+}
+
+.firstInput{
+    position: relative;
+    font-size: 22px;
+    color: grey;
+    margin-left:200px;
+    margin-top: 40px;
+}
+#user{
+
+    width:200px;
+    padding: 0 25px;
+    height: 38px;
+    border:1px solid #cccccc;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 38px;
+    border-radius: 5px;
+
+}
+
+/*切记，如果使用margin的话，它是根据左边块状元素的位置而定的*/
+.icon-icon-test1{ 
+    position: absolute;
+    display: inline-block;
+    left: 6px;
+    top:12px;
+    background: #f6f6f6;
+}
+.secondInput{
+    position: relative;
+    font-size: 22px;
+    color: lightcoral;
+    margin-left: 200px;
+    
+}
+#password{
+    width:200px;
+    padding: 0 25px;
+    height: 38px;
+    border:1px solid #cccccc;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 38px;
+    border-radius: 5px;
+}
+.icon-icon-test{
+    position: absolute;
+    display: inline-block;
+    left: 6px;
+    top:12px;
+    background: #f6f6f6;
+}
+.password{
+    margin-left: 225px;    
+    color: mintcream;
+}
+/* .inputPassword{
+    top: 4px;
+} */
+.userLogin{
+    margin-left: 225px;
+}
+.others{
+    text-align: center;
+}
+.lineLeft{
+    width:15px;
+    height: 1px;
+    margin-left: 200px;
+    background-color: rgb(152, 161, 161);
+}
+.lineRight{
+    width:15px;
+    height: 1px;
+    margin-right: 200px;
+    background-color: rgb(152, 161, 161);
+}
+/* 巧妙地利用了span长度只根据字数来撑起来 */
+.forgetPass{
+    margin-left: 75px;
+}
+.button1{
+    display: block;
+    margin-top: 3px;
+    width: 200px;
+    padding: 0 25px;
+    height: 38px;
+    border:1px solid #cccccc;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 38px;
+    border-radius: 5px;
+}
+.button2{
+    display: block;
+    margin-top: 3px;
+    width: 200px;
+    padding: 0 25px;
+    height: 38px;
+    border:1px solid #cccccc;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 38px;
+    border-radius: 5px;
+}
+.others{
+    position: relative;
+    width: 400px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;  /*主要是使字体撑满*/
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 10px;
+    color:cornsilk;
+}
+.line{
+    display: inline-block;
+    width: 100px;
+    border-top:3px solid #cccccc;
+    vertical-align: 5px;
+}
+.icon-icon-test3{
+    margin:0 10px;
+}
+.icon-icon-test4{
+    margin:0 10px 0 0;
+}
+.loginSet{
+    position: absolute; 
+    margin-left: 275px; 
+    margin-top: 20px;    
+}

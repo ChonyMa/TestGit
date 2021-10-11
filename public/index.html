@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 报错的内容还是可以的 -->  
+    <!-- 果然是一个先后问题，感觉还是可以找到答案的 -->
+    <!-- 在样式表中最好还是定义类为上上策 -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css"> 
+    <link rel="stylesheet" href="./iconfont/iconfont.css"> 
+    <script type="text/javascript" src="login.js"></script>
+    <script type="text/javascript" src="../expressWeb.js"></script>
+    <title>Login</title>
+</head>
+<body class="bodyBlock">
+    <div class="containerLogin">
+        <div class="firstInput">
+            <input type="text" name = "user" placeholder="用户名">
+            <i class = "iconfont icon-icon-test1"></i>
+        </div>
+        <div class="secondInput">
+            <input type="password" name = "password" placeholder="密码">
+             <i class = "iconfont icon-icon-test"></i>
+        </div>
+        <div class="password">
+            <input type="checkbox" name = "checkbox" > 
+            <span >记住密码</span>
+            <span >忘记密码</span>
+        </div>
+        <div class="userLogin">
+            <button class="button1" type="button" onclick="check()">登录</button>        
+            <button class="button2" type="button">新用户注册</button> 
+        </div>
+        <div class="others">
+            <span class="line"></span>
+            <span class="text">其他方式登录</span>
+            <span class="line"></span>
+        </div>
+        <div class="loginSet">
+            <span class="iconfont icon-icon-test2"></span>
+            <span class="iconfont icon-icon-test3"></span>
+            <span class="iconfont icon-icon-test4"></span>
+            <span class="iconfont icon-icon-test5"></span>
+        </div>
+    </div>
+</body>
+ <script>
+      var user = document.getElementsByName("user");
+      var password = document.getElementsByName("password");
+      console.log(user);
+      console.log(password);
+      check(user,password) 
+ </script>
+</html>

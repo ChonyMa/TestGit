@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../wm-css/reset.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <title>Document</title>
+</head>
+<!-- 忽视了一个客观存在的问题，我没有使用动态链接库，自然不能编译react -->
+<body>
+    <div class="left">
+        <!-- 侧边栏图标改为阿里icon,svg图标引入代码忒长了,不方便观察，有需要再采用那种方式 -->
+        <aside>
+            <ul>
+                <li>李红旗</li>
+                <li>陶宏薯</li>
+                <li>梁栋屹</li>
+            </ul>
+        </aside>
+    </div>
+</body>
+     <script type = "text/babel">
+         class Sidebar extends Component {
+               // 在这个地方返回 
+    
+                render() {
+                    return (
+                        <h1>hello world</h1>
+                    )
+                }
+          }
+          ReactDOM.render(
+            <Sidebar/>,
+            document.getElementById("left")  
+          ) 
+          
+     </script>
+</html>
